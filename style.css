@@ -1,0 +1,179 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Playfair Display', serif;
+}
+
+.sidebar {
+  background-color: #111827;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  width: 230px;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidebar h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  padding-left: 30px;
+  color: #d1d5db;
+}
+
+.sidebar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.register  {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  margin-left: -20px;
+}
+
+i {
+  font-size: 19px;
+}
+
+.registerM:hover {
+  color: #0cf;
+}
+
+.registerBtn:hover {
+  color: #0cf;
+}
+
+.har {
+  display: flex;
+  justify-content: end;
+  margin-right: 18px;
+  margin-top: -29px;
+}
+
+.registerM {
+  border: none;
+  width: 160px;
+  background-color: #374151;
+  margin-left: 7px;
+  color: #fff;
+  outline: none;
+  transition: background 0.3s;
+  border-radius: 20px 20px;
+  cursor: pointer;
+}
+
+.registerBtn {
+  margin-right: 10px;
+  border: none;
+  width: 53px;
+  background-color: #374151;
+  margin-left: 0px;
+  color: #fff;
+  outline: none;
+  transition: background 0.3s;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  cursor: pointer;
+}
+
+::placeholder {
+  color: #222;
+}
+
+input[type="search"] {
+  background: #fff;
+  padding-left: 10px;
+  width: 350px;
+  height: 30px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border: none;
+  outline: none;
+}
+
+.sidebar a {
+  display: block;
+  color: #d1d5db;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.sidebar a:hover {
+  color: #0cf; 
+}
+
+.nameProfile {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  padding-left: 32px;
+  color: #d1d5db;
+}
+
+.imageProfile {
+  margin-bottom: 10px;
+  border: solid 1px;
+  border-color: #1af;
+  margin-left: 50px;
+  width: 80px;
+  height: 80px;
+  border-radius: 70%;
+}
+
+body {
+  background-color: #1F2937;
+}
+
+.container {
+  position: relative;
+  margin-left: 240px;
+  margin-top: 1%;
+  background-color: #F3F4F6;
+  border: solid 1px #222;
+  width: 81%;
+  height: 90vh;
+  border-radius: 9px;
+}
+
+h3 {
+  margin-right: 150px;
+}
+
+.container-list {
+  list-style: none;
+}
+
+.divLi {
+  margin-top: 20px;
+  padding: 10px;
+  background: #aaa;
+  border-radius: 10px;
+  /* box-shadow: 6px 5px 10px 0px #99a; */
+  display: flex;
+  align-items: center;
+}
+
+.divLi span {
+  width: 80%;
+  color: #222;
+}
+
+.divLi input {
+  width: 10%;
+  outline: none;
+  accent-color: #0cf;
+}
+
+.divLi i {
+  font-size: 22px;
+  color: #222;
+}
+
+.mainForm {
+  background-color: green;
+}
